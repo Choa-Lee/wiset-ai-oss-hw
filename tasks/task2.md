@@ -9,8 +9,11 @@ Learn Git Branching 사이트를 열어 모든 과제를 직접 끝내 봅시다
  
 ## 과제 완료 캡쳐 화면
 자신의 username이 적힌 그림 파일이 하단에 보여야 합니다.
+
 ![WISET_HW_git1](../resources/WISET_HW_git1.png)
+
 ![WISET_HW_git2](../resources/WISET_HW_git2.png)
+
 ![WISET_HW_git3](../resources/WISET_HW_git3.png)
 
 
