@@ -11,7 +11,6 @@ Learn Git Branching 사이트를 열어 모든 과제를 직접 끝내 봅시다
 
 자신의 username이 적힌 그림 파일이 하단에 보여야 합니다.
 ![WISET_HW_git1](../resources/WISET_HW_git1.png)
-
 ![learn-git-branching-level-2](../resources/learn-git-branching-level2.png)
 
 ## 응원의 말
