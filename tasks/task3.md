@@ -22,6 +22,16 @@ index.html 파일을 열고 게임을 직접 실행해 봅시다.
 
 (여기에 버그를 유발한 커밋의 id와 어떻게 하면 버그를 수정할 수 있는지 적어주세요.)
 
+git log 를 통해 이전에 어떤 commit을 통해 총알이 끊임없이 발사되는 코드가 들어갔는지 확인한다.
+확인한 결과 commit 48d2f98131ff2b6067bef673f11c8145d55b3ce0(줄여서 48d2f9) 의 'fixed short lived bullet bug'라는 
+comment가 남겨진 commit이 버그를 발생시킨 것으로 보인다.
+
+이 commit을 수정하기 위해 
+git reabse -i 48d2f9^ 를 입력하여 문제를 일으킨 commit 바로 이전의 commit으로 돌아간 후,
+edit을 통해 변경할 commit으로 checkout 한 후 원하는 코드로 수정 후 커밋한다.
+
+
+
 ### 힌트
 
 과제 2를 통해 커밋도 체크아웃 할 수 있다는 것을 배웠습니다. 이전 커밋을 체크하웃하면 타임머신을 타고 과거로 돌아갈 수 있습니다!
